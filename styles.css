@@ -1,0 +1,43 @@
+:root{
+    --background-color: rgb(40, 41, 48);
+    --secondary-color: rgb(67, 68, 75);
+    --text-color: white;
+    --content-background-color: rgba(40, 41, 48, 0.35);
+}
+*{
+    color: var(--text-color);
+    min-width: 0;
+}
+body{
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    
+}
+
+circle[class^="boid"]{
+    fill: none;
+}
+
+.container{
+    z-index: -2;
+    position: fixed;
+    padding: 0;
+    margin: 10px;
+    margin-bottom: 0px;
+    min-width: calc(100% - 20px);
+    min-height: calc(100vh - 20px);
+
+}
+svg{
+    z-index: -2;
+    background-color: rgb(67, 68, 75);
+    width: 100%;
+    height: calc(100vh - 20px);
+}
+.movable{
+    z-index: 0;
+    fill: none;
+    stroke: white;
+}
+
