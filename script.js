@@ -13,16 +13,16 @@ const movable = document.getElementsByClassName('movable')[0];
 const boid_container = document.getElementsByClassName('boid-container')[0];
 const boids = [];
 const boid_smoothing = 0.05;
-const boid_speed = 7;
+const boid_speed = 6;
 const separation_radius = 30;
 const alignment_radius = 50;
 const cohesion_radius = 50;
 const avoidance_radius = 150;
-const separation_strenght = 0.75;
+const separation_strenght = 0.6;
 const alignment_strenght = 0.5;
 const cohesion_strenght = 0.5;
 const avoidance_strength = 1;
-const random_strength = 0.05;
+const random_strength = 0.001;
 
 
 const warp = false;
